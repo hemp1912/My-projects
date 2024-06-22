@@ -1,0 +1,75 @@
+
+.container{
+    width: 500px;
+    height: auto;
+    background-color:white;
+    margin-left: 200px;
+    margin-top: 200px;
+    border-radius: 5px;
+}
+
+body{
+    background-color: lightgreen;
+    
+}
+
+
+h1{
+    color: black;
+    text-align: center;
+    padding-top: 10px;
+
+}
+
+hr{
+    width: 80%;
+    color: #030303;
+}
+
+p{
+    margin-left: 13%;
+    color: black;
+    font-weight: 300;
+    padding-top: 10px;
+}
+
+#submit{
+    background-color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 180px;
+    width: 30%;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 5px;
+    color: black;
+    font-weight: 700;
+
+}
+
+#submit:hover{
+    background-color: orange;
+    font-size: medium;
+    border: none;
+    border-radius: 15px;
+}
+
+#user , #emailid , #password{
+    background-color: white;
+  
+    font-weight: 500;
+    padding-left: 10px;
+    width: 80%;
+    height: 30px;
+    text-align: left;
+    margin-left: 50px;
+    border: none;
+    border-bottom: 2px solid;
+    
+}
+
+#user:focus, #emailid:focus, #password:focus,
+#user:active, #emailid:active, #paasword:active{
+    outline: none;
+    border-bottom-color: black;
+}
